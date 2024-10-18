@@ -12,5 +12,5 @@
 // console.log(document.querySelector('from button'))/*para seleccionar el botón de form, cuando haya otros botones fuera y estén en otros formularios*/
 
 // usar variables para hacer las manipulaciones, siempre.
-let input = document.getElementById('fecha')
-console.log(input)
+import { registrarTiempos } from "../CONTROLLER/ControllerTiempos.js";
+document.getElementById('btnRegistrar').addEventListener('click', registrarTiempos)
