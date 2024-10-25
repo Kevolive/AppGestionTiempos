@@ -13,4 +13,8 @@
 
 // usar variables para hacer las manipulaciones, siempre.
 import { registrarTiempos } from "../CONTROLLER/ControllerTiempos.js";
+import { listarProyectos, filtrarPorEmpresa, filtrarPorProyecto, filtrarPorTipoProyecto }
+    from "../CONTROLLER/ControllerProyectos.js";
+
 document.getElementById('btnRegistrar').addEventListener('click', registrarTiempos)
+
