@@ -1,7 +1,7 @@
 import { proyectos } from "../MODELS/ModelProyectos.js";
 
 export function listarProyectos() {
-
+console.log(proyectos)
 }
 
 export function filtrarPorEmpresa() {
